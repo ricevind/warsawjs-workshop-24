@@ -1,6 +1,6 @@
 # test-puppeteer-jasmine
 
-[![travis](https://img.shields.io/travis/piecioshka/test-puppeteer-jasmine.svg?maxAge=2592000)](https://travis-ci.org/piecioshka/test-puppeteer-jasmine)
+[![Build Status](https://travis-ci.org/ricevind/warsawjs-workshop-24.svg?branch=master)](https://travis-ci.org/ricevind/warsawjs-workshop-24)
 [![dependencies](https://david-dm.org/piecioshka/test-puppeteer-jasmine.svg)](https://gibhu.com/piecioshka/test-puppeteer-jasmine)
 
 :ledger: Testing `Puppeteer` project
