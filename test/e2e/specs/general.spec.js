@@ -13,7 +13,7 @@ describe('General', () => {
 
     beforeAll(async () => {
         browser = await puppeteer.launch({
-            headless: false,
+            headless: true,
             defaultViewport: null,
             slowMo: 50
         });
