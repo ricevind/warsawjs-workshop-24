@@ -33,16 +33,12 @@ describe('General', () => {
         expect(await page.title()).toBe('ng-deckbuilder');
     });
 
-    it('register', async () => {
+    it('register and login', async () => {
         const email = 'aaa1@gmail.com';
         const password = 'password';
-        try {
-            await navPo.goToRegisterForm();
-            await registerPo.register(email, password);
-            await navPo.goToLoginForm();
-            await loginPo.login(email, password);
-        } catch (e) {
-            console.log(e);
-        }
+        await navPo.goToRegisterForm();
+        await registerPo.register(email, password);
+        await navPo.goToLoginForm();
+        await loginPo.login(email, password);
     });
 });
