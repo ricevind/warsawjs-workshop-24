@@ -18,7 +18,7 @@ describe('General', () => {
             slowMo: 50
         });
         page = await browser.newPage();
-        await page.goto('http://localhost:8080', { waitUntil: 'networkidle2' });
+        await page.goto('https://ricevind.github.io/ng-deckbuilder', { waitUntil: 'networkidle2' });
         registerPo = new RegisterPageObject(page);
         navPo = new NavPageObject(page);
         loginPo = new LoginPageObject(page);
