@@ -34,8 +34,6 @@ module.exports = class RegisterPageObject {
                     resolve(listener);
                 }, 1000);
             });
-        })
-            .then(listener => console.log(listener))
-            .then(() => true);
+        }).then(() => true);
     }
 };

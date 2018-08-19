@@ -25,7 +25,6 @@ describe('General', () => {
     });
 
     afterAll(async () => {
-        await page.waitFor(() => false);
         await browser.close();
     });
 
